@@ -6,7 +6,7 @@ Simulate a brute-force attack against the SSH service exposed by the vitctim mac
 ## Tool Used
 - Hydra
 
-## Targhet Information
+## Target Information
 - Target IP: 192.168.142.129
 - Service: SSH
 - Port: 22
