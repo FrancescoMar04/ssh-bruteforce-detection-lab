@@ -17,4 +17,4 @@ After several failed attemts, a successful login entry appears for the same sour
 - Source IP of the attacker identified in the logs
 
 ## Clonclusion
-The brute-foprce activity is cleary visible in the authentication logs and can be correlated with the attacker machine.
+The brute-force activity is cleary visible in the authentication logs and can be correlated with the attacker machine.
