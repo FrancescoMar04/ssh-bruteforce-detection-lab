@@ -12,4 +12,5 @@ Command:
 nmap -sV 192.168.142.129
 
 Result:
-- Port 22/tcp (SSH) is open. OpenSSH 9.6p1 Ubuntu 3ubuntu13.15.
+- Port 22/tcp (SSH) is open
+- Service: OpenSSH 9.6p1 (Ubuntu)
