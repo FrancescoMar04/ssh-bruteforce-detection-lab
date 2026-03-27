@@ -1,4 +1,4 @@
-# Network Setup
+# Network Setup Phase
 
 ## Lab architecture
 - Attacker: Kali Linux
