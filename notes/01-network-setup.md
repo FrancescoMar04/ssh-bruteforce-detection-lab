@@ -1,4 +1,4 @@
-#day 1 - network setup
+#01 - network setup
 
 ## Lab architecture
 - Attacker: Kali Linux
