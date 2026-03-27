@@ -1,5 +1,3 @@
-#01 - network setup
-
 ## Lab architecture
 - Attacker: Kali Linux
 - Victim: Ubuntu Server
