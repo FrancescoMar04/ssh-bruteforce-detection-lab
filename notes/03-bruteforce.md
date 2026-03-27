@@ -1,15 +1,25 @@
+# Brute Force Attack Phase
+
+## Objective
+Simulate a brute-force attack against the SSH service exposed by the vitctim machine.
+
+## Tool Used
+- Hydra
+
+## Targhet Information
+- Target IP: 192.168.142.129
 - Service: SSH
 - Port: 22
-- Username: ubuntu
+- Username: Ubuntu
 
 ## Attack Setup
-A custom password list was created to simulate a controlled brute-force scenario in a lab environment. 
+A custom password list was created to simulate a controlled brute-force scenario in a lab environment.
 
 ## Command Used
 hydra -l ubuntu -P passwords.txt -t 4 -f ssh://192.168.142.129
 
-## Result
-The brute force attack was successful.
+## Results
+The brute-force attack was successful.
 Hydra identified the correct password for the target account.
 
 ## Notes
