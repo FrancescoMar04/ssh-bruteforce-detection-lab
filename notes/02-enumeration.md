@@ -7,7 +7,7 @@ nmap -sn 192.168.142.0/24
 Result:
 Multiple hosts detected in the network.
 
-## OPort Scanning
+## Port Scanning
 Command:
 nmap -sV 192.168.142.129
 
