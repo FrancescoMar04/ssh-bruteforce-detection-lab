@@ -1,13 +1,13 @@
 # Enumeration Phase
 
-## Step 1 - Network Discovery
+## Network Discovery
 Command:
 nmap -sn 192.168.142.0/24
 
 Result:
 Multiple hosts detected in the network.
 
-## Step 2 - Port Scanning
+## OPort Scanning
 Command:
 nmap -sV 192.168.142.129
 
