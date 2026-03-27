@@ -16,5 +16,5 @@ After several failed attemts, a successful login entry appears for the same sour
 - Accepted password entry
 - Source IP of the attacker identified in the logs
 
-## Clonclution
+## Clonclusion
 The brute-foprce activity is cleary visible in the authentication logs and can be correlated with the attacker machine.
