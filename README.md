@@ -133,3 +133,5 @@ README.md
 This project demonstrates a complete attack and defense cycle in a controlled environment. It highlights the importance of proper system configuration, monitoring, and hardening techniques to mitigate common threats such as brute-force attacks against SSH services.
 
 The lab provides practical experience in both offensive and defensive security, reinforcing core concepts relevant to system administration and cybersecurity roles.
+
+This is a summary of the SSH Brute Force Attack, Detection and Mitigation Lab project, to see the project itself you need to go to the "phases" folder.
