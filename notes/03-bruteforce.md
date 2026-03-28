@@ -25,3 +25,7 @@ Hydra identified the correct password for the target account.
 ## Notes
 This phase simulates an insecure SSH configuration based on password authentication.
 It is intended to demostrate how weak credentials can expose a system to brute-force attacks.
+
+## Evidence
+
+![Brute Force Success](../screenshots/bruteforce-success.png)

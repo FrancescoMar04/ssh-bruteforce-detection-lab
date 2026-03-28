@@ -21,3 +21,6 @@ The authentication logs show multiple failed login attempts originating from the
 This behavior is indicative of a brute-force attack, as reported login attempts from a single source are considered suspicious.
 The source IP can be identified as the attacker machine within the lab environment.
 
+## Evidence
+
+![Log Analysis](../screenshots/log-analysis.png)
