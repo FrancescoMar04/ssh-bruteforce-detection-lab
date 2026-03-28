@@ -17,3 +17,8 @@ After multiple failed login attempts, the attacker IP was autoamtically banned.
 ## Evidence
 The attacker machine was no longer able to connect to the SSH service.
 
+### Blocked Connection
+![Blocked Connection](../screenshots/fail2ban-blocked-connection.png)
+
+### Banned IP
+![Banned IP](../screenshots/fail2ban-banned-ip.png)
