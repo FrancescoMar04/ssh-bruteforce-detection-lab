@@ -24,8 +24,8 @@ The source IP can be identified as the attacker machine within the lab environme
 ## Quantitative analysis
 The authentication logs were further analyzed to quantify the brute-force activity.
 
-- Total failed login attempts: <1352>
-- Source IP: <192.168.142.130>
+- Total failed login attempts: 1352
+- Source IP: 192.168.142.130
 - All attempts originated from a single IP address
 
 A successful login was observed after multiple attempts from the same IP, confirming a brute-force attack.
