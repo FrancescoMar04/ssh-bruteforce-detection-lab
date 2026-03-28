@@ -41,7 +41,7 @@ This phase establishes the foundation required for subsequent enumeration and at
 
 ---
 
-## Phase 02 – Enumeration
+## Phase 02 – Enumeration and Service Discovery Phase
 
 Network discovery and service identification were performed using Nmap. The objective was to identify active hosts and exposed services within the internal network.
 
