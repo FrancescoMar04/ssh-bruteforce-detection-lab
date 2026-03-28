@@ -1,6 +1,6 @@
 # 🔐 SSH Brute Force Detection & Hardening Lab
 
-## 📌 Overview
+## Overview
 
 This project simulates a real-world cybersecurity scenario where a Linux server is targeted by a brute-force SSH attack.
 
@@ -14,7 +14,7 @@ The objective is to demonstrate a full security workflow:
 
 ---
 
-## 🖥️ Lab Architecture
+## Lab Architecture
 
 The lab consists of three virtual machines:
 
@@ -29,7 +29,7 @@ Network configuration:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Nmap → Network scanning
 * Hydra → Brute-force attack
@@ -39,7 +39,7 @@ Network configuration:
 
 ---
 
-## 🔍 Phase 1 — Enumeration
+## Phase 1 — Enumeration
 
 The network was scanned to identify active hosts and open services.
 
@@ -49,7 +49,7 @@ Key finding:
 
 ---
 
-## 💣 Phase 2 — Brute Force Attack
+## Phase 2 — Brute Force Attack
 
 A controlled brute-force attack was performed using Hydra.
 
@@ -63,7 +63,7 @@ Result:
 
 ---
 
-## 📊 Phase 3 — Log Analysis
+## Phase 3 — Log Analysis
 
 Authentication logs were analyzed to identify attack patterns.
 
@@ -78,7 +78,7 @@ Key observations:
 
 ---
 
-## 🛡️ Phase 4 — Detection (Fail2Ban)
+## Phase 4 — Detection (Fail2Ban)
 
 Fail2Ban was configured to automatically block suspicious activity.
 
@@ -95,7 +95,7 @@ Result:
 
 ---
 
-## 🔐 Phase 5 — SSH Hardening
+## Phase 5 — SSH Hardening
 
 The system was secured by implementing:
 
@@ -111,7 +111,7 @@ The system was secured by implementing:
 
 ---
 
-## ✅ Final Security State
+## Final Security State
 
 After applying defensive measures:
 
@@ -121,7 +121,7 @@ After applying defensive measures:
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * How brute-force attacks work in practice
 * How to analyze authentication logs
@@ -130,7 +130,7 @@ After applying defensive measures:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Configure UFW firewall rules
 * Change default SSH port
@@ -139,7 +139,7 @@ After applying defensive measures:
 
 ---
 
-## 📎 Project Structure
+## Project Structure
 
 ```bash
 notes/
@@ -149,7 +149,7 @@ README.md
 
 ---
 
-## 🎯 Summary
+## Summary
 
 This project demonstrates a complete attack and defense cycle in a controlled lab environment.
 
