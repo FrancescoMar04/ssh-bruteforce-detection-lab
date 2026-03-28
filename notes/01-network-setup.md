@@ -16,3 +16,9 @@
 
 ## Connectivity Test
 - Ping successful between all machines
+
+## Connectivity Verification
+
+A successful ICMP test was performed from the attacker machine to the victim:
+
+![Ping Test](../screenshots/ping-test.png)
