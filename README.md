@@ -4,7 +4,7 @@
 
 This project simulates a real-world cybersecurity scenario involving a brute-force attack against an SSH service on a Linux server. The objective is to demonstrate a complete security workflow, from initial network setup to attack execution, log analysis, detection, and final system hardening.
 
-The lab was built using 3 virtual machines to replicate an attacker, a target system, and an administrative host.
+The lab was built using 3 virtual machines to replicate an attacker, a target system, and an administrative host. This is a summary of the LAB, to see the project itself you need to go to the "phases" folder.
 
 ---
 
@@ -133,5 +133,3 @@ README.md
 This project demonstrates a complete attack and defense cycle in a controlled environment. It highlights the importance of proper system configuration, monitoring, and hardening techniques to mitigate common threats such as brute-force attacks against SSH services.
 
 The lab provides practical experience in both offensive and defensive security, reinforcing core concepts relevant to system administration and cybersecurity roles.
-
-This is a summary of the SSH Brute Force Attack, Detection and Mitigation Lab project, to see the project itself you need to go to the "phases" folder.
