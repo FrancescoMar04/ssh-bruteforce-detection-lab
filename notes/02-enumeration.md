@@ -1,4 +1,4 @@
-# Enumeration Phase
+# Enumeration and Service Discovery Phase
 
 ## Network Discovery
 Command:
