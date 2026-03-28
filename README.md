@@ -1,4 +1,4 @@
-# SSH Brute Force Detection and Hardening Lab
+# SSH Brute Force Attack, Detection and Mitigation Lab
 
 ## Overview
 
