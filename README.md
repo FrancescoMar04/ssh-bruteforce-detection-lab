@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project simulates a real-world cybersecurity scenario involving a brute-force attack against an SSH service on a Linux server. The objective is to demonstrate a complete security workflow, from initial network setup to attack execution, log analysis, detection, and final system hardening.
+This project simulates a real-world cybersecurity scenario involving a brute-force attack against an SSH service on a Linux server. This project simulates a real-world cybersecurity scenario involving a brute-force attack against an SSH service on a Linux server. The goal is to demonstrate how vulnerable a machine is and how to make it more secure from such attacks.
 
 The lab was built using 3 virtual machines to replicate an attacker, a target system, and an administrative host. This is a summary of the LAB, to see the project itself you need to go to the "phases" folder.
 
