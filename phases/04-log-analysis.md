@@ -8,8 +8,8 @@ Analyze authentication logs generated during the brute-force attack.
 - /var/log/auth.log
 
 ## Observations
-The log file shows multiple failed SSH authentication attemps coming from the attacker machine.
-After several failed attemts, a successful login entry appears for the same source IP.
+The log file shows multiple failed SSH authentication attempts coming from the attacker machine.
+After several failed attempts, a successful login entry appears for the same source IP.
 
 ## Relevant Events
 - Failed password entries
