@@ -4,9 +4,8 @@
 
 This project simulates a brute-force attack against an SSH service on an Ubuntu Server and demonstrates how to detect, analyze, and mitigate the attack.
 
-The lab follows a complete security workflow, including network setup, service enumeration, brute-force exploitation, log analysis, automated detection using Fail2Ban, and final system hardening.
-
 ---
+
 ## Workflow
 
 The project is structured into phases:
