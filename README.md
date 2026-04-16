@@ -7,6 +7,20 @@ This project simulates a brute-force attack against an SSH service on an Ubuntu 
 The lab follows a complete security workflow, including network setup, service enumeration, brute-force exploitation, log analysis, automated detection using Fail2Ban, and final system hardening.
 
 ---
+## Workflow
+
+The project is structured into phases:
+
+* Network setup
+* Enumeration
+* Brute-force attack
+* Log analysis
+* Detection with Fail2Ban
+* Final system hardening
+
+Detailed technical steps and evidence are available in the `phases/` directory.
+
+---
 
 ## Lab Architecture
 
@@ -28,21 +42,6 @@ Network:
 * Fail2Ban
 * OpenSSH
 * Linux authentication logs
-
----
-
-## Workflow
-
-The project is structured into phases:
-
-* Network setup
-* Enumeration
-* Brute-force attack
-* Log analysis
-* Detection with Fail2Ban
-* Final system hardening
-
-Detailed technical steps and evidence are available in the `phases/` directory.
 
 ---
 
