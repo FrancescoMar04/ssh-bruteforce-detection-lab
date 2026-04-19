@@ -2,7 +2,15 @@
 
 ## Overview
 
-The simulated attack involves repeated SSH authentication attempts leading to unauthorized access, followed by detection through log analysis and automated blocking.
+This project simulates a brute-force attack against an SSH service on an Ubuntu Server and demonstrates how it can be detected, analyzed, and mitigated.
+
+---
+
+## Simulated Incident
+
+The lab simulates a brute-force attack involving repeated SSH authentication attempts from a single source IP, leading to unauthorized access.
+
+The attack is detected through log analysis and mitigated using automated blocking mechanisms and system hardening techniques.
 
 ---
 
@@ -10,12 +18,12 @@ The simulated attack involves repeated SSH authentication attempts leading to un
 
 The project is structured into phases:
 
-* Network setup
-* Enumeration
-* Brute-force attack
-* Log analysis
-* Detection and automated response with Fail2Ban
-* Final system hardening
+1. Network setup  
+2. Enumeration  
+3. Brute-force attack  
+4. Log analysis  
+5. Detection and automated response with Fail2Ban  
+6. Final system hardening  
 
 Detailed technical steps and evidence are available in the `phases/` directory.
 
@@ -23,37 +31,51 @@ Detailed technical steps and evidence are available in the `phases/` directory.
 
 ## Lab Architecture
 
-* Attacker: Kali Linux
-* Victim: Ubuntu Server
-* Defender: Ubuntu
-
-Network:
-
-* NAT (internet access)
-* Host-Only (internal communication)
+* **Attacker:** Kali Linux  
+* **Victim:** Ubuntu Server  
+* **Defender:** Ubuntu  
 
 ---
 
-## Tools and Technologies
+### Network Configuration
 
-* Nmap (network discovery)
-* Hydra (brute-force attack)
-* Fail2Ban (intrusion prevention)
-* OpenSSH
-* Linux authentication logs (/var/log/auth.log)
+* NAT (internet access)  
+* Host-Only network (internal communication between machines)  
 
 ---
 
-## Skills Demonstrated
+## What You Will Find in `phases/`
 
-* Network and service enumeration
-* Brute-force attack simulation
-* Log analysis and correlation
-* Intrusion detection and response
-* SSH hardening and secure configuration
+* Step-by-step attack simulation  
+* Log analysis and evidence of brute-force activity  
+* Detection using Fail2Ban  
+* System hardening configuration  
+* Screenshots and validation of results  
 
 ---
 
-## Conclusion
+## Key Skills Demonstrated
 
-This project demonstrates a practical understanding of both offensive and defensive security techniques applied to SSH services in a controlled lab environment.
+* Network and service enumeration  
+* Brute-force attack simulation  
+* Log analysis and correlation  
+* Intrusion detection and automated response  
+* SSH hardening and secure configuration  
+
+---
+
+## Tools Used
+
+* Nmap (network discovery)  
+* Hydra (brute-force attack)  
+* Fail2Ban (intrusion prevention)  
+* OpenSSH  
+* Linux authentication logs (`/var/log/auth.log`)  
+
+---
+
+## Project Outcome
+
+This project demonstrates how brute-force attacks against SSH services can be detected and mitigated through log analysis, monitoring, and system hardening techniques.
+
+It highlights the importance of securing authentication mechanisms and implementing automated defense solutions.
