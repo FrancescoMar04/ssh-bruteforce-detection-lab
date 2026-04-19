@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project simulates a brute-force attack against an SSH service on an Ubuntu Server and demonstrates how to detect, analyze, and mitigate the attack.
+The simulated attack involves repeated SSH authentication attempts leading to unauthorized access, followed by detection through log analysis and automated blocking.
 
 ---
 
@@ -14,7 +14,7 @@ The project is structured into phases:
 * Enumeration
 * Brute-force attack
 * Log analysis
-* Detection with Fail2Ban
+* Detection and automated response with Fail2Ban
 * Final system hardening
 
 Detailed technical steps and evidence are available in the `phases/` directory.
@@ -36,11 +36,11 @@ Network:
 
 ## Tools and Technologies
 
-* Nmap
-* Hydra
-* Fail2Ban
+* Nmap (network discovery)
+* Hydra (brute-force attack)
+* Fail2Ban (intrusion prevention)
 * OpenSSH
-* Linux authentication logs
+* Linux authentication logs (/var/log/auth.log)
 
 ---
 
