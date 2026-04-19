@@ -1,20 +1,24 @@
 # Final Security State
 
 ## Objective
-Demostrate the final secured configuration of the system after applying defensive measures.
 
-## Security Improvments Implemented
+Demonstrate the final secured configuration of the system after applying defensive measures.
+
+## Security Improvements Implemented
 
 ### 1. Fail2Ban Protection
+
 - Configured to detect and block brute-force attempts
 - Automatically bans IP addresses after multiple failed login attempts
 
 ### 2. SSH Hardening
+
 - Disabled password authentication
 - Disabled root login
 - Enabled key-based authentication only
 
 ### 3. Secure Access
+
 - Administrative access is now performed using SSH keys
 - No password-based login is allowed
 
