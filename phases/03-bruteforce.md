@@ -21,7 +21,9 @@ A custom password list was created to simulate a controlled brute-force scenario
 
 ## Command Used
 
+```bash
 hydra -l ubuntu -P passwords.txt -t 4 -f ssh://192.168.142.129
+```
 
 ## Results
 
