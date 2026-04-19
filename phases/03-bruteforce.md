@@ -27,7 +27,7 @@ hydra -l ubuntu -P passwords.txt -t 4 -f ssh://192.168.142.129
 
 ## Results
 
-The brute-force attack was successful.
+The brute-force attack was successful, allowing unauthorized access to the target system.
 Hydra identified the correct password for the target account.
 
 ## Notes
