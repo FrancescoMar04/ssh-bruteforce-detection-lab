@@ -29,7 +29,7 @@ A successful login was observed after multiple attempts from the same IP, confir
 The authentication logs show multiple failed login attempts originating from the same IP address.
 This behavior is indicative of a brute-force attack, as reported login attempts from a single source are considered suspicious.
 The source IP can be identified as the attacker machine within the lab environment.
-Last detail: No evidence of multiple source IP addresses was found, indicating a non-distributed brute force attack.
+Last detail: No evidence of multiple source IP addresses was found, indicating a non-distributed brute-force attack.
 
 ## Evidence
 
