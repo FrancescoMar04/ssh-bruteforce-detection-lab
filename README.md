@@ -4,6 +4,8 @@
 
 This project simulates a brute-force attack against an SSH service on an Ubuntu Server and demonstrates how it can be detected, analyzed, and mitigated.
 
+It highlights the importance of securing authentication mechanisms and implementing automated defense solutions.
+
 ---
 
 ## Simulated Incident
@@ -77,5 +79,3 @@ Detailed technical steps and evidence are available in the `phases/` directory.
 ## Project Outcome
 
 This project demonstrates how brute-force attacks against SSH services can be detected and mitigated through log analysis, monitoring, and system hardening techniques.
-
-It highlights the importance of securing authentication mechanisms and implementing automated defense solutions.
