@@ -22,7 +22,7 @@ The project is structured into phases:
 
 1. Network setup  
 2. Enumeration  
-3. Brute-force attack  
+3. Brute-force attack using Hydra
 4. Log analysis  
 5. Detection and automated response with Fail2Ban  
 6. Final system hardening  
